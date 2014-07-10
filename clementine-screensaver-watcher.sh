@@ -1,2 +1,2 @@
 #! /bin/sh
-xscreensaver-command -watch | python xscreensaver-watcher.py
+xscreensaver-command -watch | python ~/bin/xscreensaver-watcher.py
