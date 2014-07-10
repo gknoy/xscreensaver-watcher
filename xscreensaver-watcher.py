@@ -59,7 +59,8 @@ class XScreensaverWatcher(object):
         # see http://stackoverflow.com/questions/3670323/setting-smaller-buffer-size-for-sys-stdin
         while True:
             line = self.stream.readline()
-            if not line: break  # EOF
+            if not line:
+                break  # EOF
 
             if verbose:
                 print("IN: {}".format(line.strip()))
