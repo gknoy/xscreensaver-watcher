@@ -1,0 +1,3 @@
+WHATEVER things happened before
+UNBLANK date string here         # lock invoked
+LOCK  (date)
